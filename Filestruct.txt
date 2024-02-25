@@ -1,0 +1,19 @@
+~/Flask-Ldap    
+        |-- app.py    
+        |-- manage.py    
+        |-- settings.py    
+        |__ /forms             # Form        
+            |-- LoginForm.py   # LoginForm    
+        |__ /main        
+            |-- __init__.py
+        |__ /views        
+            |-- global_ldap_authentication.py    
+        |__ /templates        
+            |__ /includes            
+                |-- _flashmsg.html            
+                |-- _formhelpers.html        
+            |__ error.html        
+            |__ login.html        
+            |__ success.html
+        |__ /views
+            |-- global_ldap_authentication.py
